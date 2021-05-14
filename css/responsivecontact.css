@@ -1,0 +1,37 @@
+@media only screen and (max-width: 768px) {
+    
+    .nav-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .nav-header nav a {
+        font-family: 'Overpass', sans-serif;
+        color: black;
+        text-decoration: none;
+        padding: 4px;
+        font-size: 1rem
+    }
+    .logop img{
+        width: 300px;
+        margin-left: 140px;
+        background-position: center;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+         
+    }
+    .box-form {
+        width: 310px;
+        margin: auto;
+       
+    }
+    
+    
+    
+}

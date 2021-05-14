@@ -1,0 +1,109 @@
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-shadow: -1px -3px 28px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -3px 28px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -3px 28px 1px rgba(0, 0, 0, 0.75);
+    background-color: white;
+}
+
+.nav-header h1 {
+    font-family: 'Overpass', sans-serif
+}
+
+.nav-header nav a {
+    font-family: 'Overpass', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+    font-size: 1.2rem
+}
+
+.nav-header nav .contact {
+    background-color: #ffa807;
+    padding: 6px 7px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px
+}
+
+.logop {
+
+    margin-top: 20px;
+    width: 600px;
+
+}
+
+/*formulario*/
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-form {
+    width: 600px;
+    margin: auto;
+    background: rgba(0, 0, 0, .5);
+    filter: alpha(opacity=10);
+    opacity: 1.8;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-filter: alpha(opacity=10);
+}
+
+.formm {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+.formm label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: 4px;
+}
+.formm input {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 0;
+    height: 1.rem;
+}
+
+.formm input,
+textarea {
+    outline: none;
+    
+}
+
+.formm input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+body {
+    background: linear-gradient(#141e30, #141e30);
+}
